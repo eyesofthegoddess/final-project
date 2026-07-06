@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   color: #243e63;
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
 }
 .row {
   width: 100%;
@@ -383,7 +375,7 @@ header {
   margin-top: 40px;
 }
 .feature {
-  width: calc(100% / 3);
+  width: calc(100%/3);
 }
 .feature__row {
   display: flex;
@@ -427,12 +419,11 @@ header {
   margin: 0 auto;
 }
 
-/* QUALITY WORK */
-
 #quality .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 #quality .section__title,
 #values .section__title {
@@ -448,7 +439,7 @@ header {
 .quality__description,
 .quality__img--wrapper {
   width: 50%;
-}
+  }
 .quality__img--wrapper {
   border-radius: 4px;
   border: 1px solid rgb(229, 231, 235);
@@ -473,8 +464,6 @@ header {
 .quality__img {
   z-index: 1;
 }
-
-/* STEPS */
 
 #steps .row {
   display: flex;
@@ -538,8 +527,6 @@ header {
   color: rgb(100, 21, 255); /* currentColor will inherit this */
   fill: currentColor;
 }
-
-/* VALUES */
 
 #values .row {
   display: flex;
@@ -614,8 +601,6 @@ header {
   line-height: 1.625;
   color: #718096;
 }
-
-/* PRICING */
 
 #pricing .row {
   display: flex;
@@ -806,8 +791,7 @@ header {
   justify-content: space-between;
 }
 
-/* TESTIMONIALS */
-section #testimonials {
+#testimonials {
   padding: 0px;
 }
 
@@ -928,9 +912,7 @@ section #testimonials {
   height: 20px;
 }
 
-/* START / CALL TO ACTION */
-
-main {
+{
   margin-bottom: 96px;
 }
 
@@ -1020,8 +1002,6 @@ main {
   color: rgb(80 17 204);
   opacity: 0.5;
 }
-
-/* FOOTER */
 
 footer {
   padding: 96px 32px;
